@@ -1,23 +1,12 @@
-// const express = require('express')
-
-// const app = express()
-
-// app.get('/api', (req, res) =>
-//   res.json({ users: ['userOne', 'userTwo', 'userThree'] }),
-// )
-
-// app.listen(5000, () => {
-//   console.log('Application running on port 5000')
-// })
-
 const express = require('express')
+
 const app = express()
-const port = 3000
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
+app.get('/api', (req, res) =>
+  res.json({ users: ['userOne', 'userTwo', 'userThree'] }),
+)
+
+app.listen(5000, () => {
+  console.log('Application running on port 5000')
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
