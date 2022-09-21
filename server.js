@@ -18,6 +18,14 @@ app.get('/apifruits', (req, res) =>
   res.json({ books: ['melon', 'apple', 'mango'] }),
 )
 
+app.get('/apifruits', (req, res) =>
+  res.json({ books: ['melon', 'apple', 'mango'] }),
+)
+
+app.get('/apifruits', (req, res) =>
+  res.json({ books: ['melon', 'apple', 'mango'] }),
+)
+
 app.get('/apifruit', (req, res) =>
   res.json({ books: ['melon', 'apple', 'mango'] }),
 )
