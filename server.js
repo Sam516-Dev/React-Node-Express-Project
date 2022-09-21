@@ -17,6 +17,10 @@ app.get('/apianimals', (req, res) =>
 app.get('/apifruits', (req, res) =>
   res.json({ books: ['melon', 'apple', 'mango'] }),
 )
+
+app.get('/apifruits', (req, res) =>
+  res.json({ books: ['melon', 'apple', 'mango'] }),
+)
 app.get('/apifruits', (req, res) =>
   res.json({ books: ['melon', 'apple', 'mango'] }),
 )
@@ -51,7 +55,6 @@ app.get('/apifruit', (req, res) =>
 app.get('/apifruits', (req, res) =>
   res.json({ books: ['melon', 'apple', 'mango'] }),
 )
-
 
 app.listen(5000, () => {
   console.log('Application running on port 5000')
