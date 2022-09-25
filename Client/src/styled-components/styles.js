@@ -18,7 +18,7 @@ export const Title = styled.h1`
 
 `;
 
-export const body = styled.h2`
+export const Body = styled.h2`
   text-align: left;
   color: blue;
 
