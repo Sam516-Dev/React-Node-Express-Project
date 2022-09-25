@@ -1,8 +1,10 @@
 import React from "react"
+import { Title } from "./styled-components/styles"
+
 
 function App() {
   return (
-  <h2> hello sam </h2>
+    <Title> Hello Sam </Title>
   );
 }
 
