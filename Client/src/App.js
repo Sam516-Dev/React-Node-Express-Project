@@ -1,11 +1,13 @@
-import React from "react"
-import { Title } from "./styled-components/styles"
-
+import React from 'react'
+import { Title, body } from './styled-components/styles'
 
 function App() {
   return (
-    <Title> Hello Sam </Title>
-  );
+    <div>
+      <Title> Hello Sam </Title>
+      <body> this is a react application </body>
+    </div>
+  )
 }
 
-export default App;
+export default App
