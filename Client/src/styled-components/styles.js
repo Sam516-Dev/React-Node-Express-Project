@@ -23,3 +23,11 @@ export const Body = styled.h2`
   color: blue;
 
 `;
+
+export const Headtwo = styled.h2`
+  text-align: left;
+  color: blue;
+  font-size:medium ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+`;
