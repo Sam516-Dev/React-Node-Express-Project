@@ -31,3 +31,10 @@ export const Headtwo = styled.h2`
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 `;
+
+export const Headthree = styled.h3`
+  text-align: left;
+  color: blue;
+  font-size:medium ;
+
+`;
