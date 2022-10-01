@@ -32,6 +32,13 @@ export const Headtwo = styled.h2`
 
 `;
 
+export const Headthre = styled.h3`
+  text-align: left;
+  color: blue;
+  font-size:medium ;
+
+`;
+
 export const Headthree = styled.h3`
   text-align: left;
   color: blue;
